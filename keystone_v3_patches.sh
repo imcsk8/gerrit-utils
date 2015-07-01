@@ -32,9 +32,6 @@ git fetch https://ichavero@review.openstack.org/openstack/puppet-keystone refs/c
 echo "Applying support for keystone v3 api - resource::service_identity"
 # support for keystone v3 api - resource::service_identity
 git fetch https://ichavero@review.openstack.org/openstack/puppet-keystone refs/changes/57/193357/1 && git cherry-pick FETCH_HEAD
-echo "Applying support for keystone v3 api - update keystone::roles::admin"
-# support for keystone v3 api - update keystone::roles::admin
-git fetch https://ichavero@review.openstack.org/openstack/puppet-keystone refs/changes/58/193358/1 && git cherry-pick FETCH_HEAD
 echo "Applying support for keystone v3 api - keystone::endpoint"
 # support for keystone v3 api - keystone::endpoint
 git fetch https://ichavero@review.openstack.org/openstack/puppet-keystone refs/changes/59/193359/1 && git cherry-pick FETCH_HEAD
